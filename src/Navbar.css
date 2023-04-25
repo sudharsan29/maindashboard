@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;800&display=swap');
+
+.fullnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 231px;
+    
+    position: absolute;
+    width: 1418px;
+    height: 64px;
+    left: 11px;
+    top: 5px;
+    
+
+}
+.fullsearch{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 288px;
+
+width: 368px;
+height: 38px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.half{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+
+width: 320px;
+height: 38px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    width: 368px;
+    height: 38px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.image{
+    width: 156px;
+height: 33px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.navs{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 752px;
+    height: 64px;    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+ .a{
+    width: 74px;
+height: 20px;
+
+/* text-sm/leading-5/font-medium */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+
+/* gray/900 */
+
+color: #111827;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+flex-grow: 0;
+}
+.search{
+    display: inline-block;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+width: 320px;
+height: 38px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.placeholder{
+    width: 47px;
+height: 20px;
+
+/* text-sm/leading-5/font-normal */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* gray/500 */
+
+color: #6B7280;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+    }
+
+    .search-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 0px;
+        
+        width: 320px;
+        height: 38px;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+  
+.image1{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+/* white */
+
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
